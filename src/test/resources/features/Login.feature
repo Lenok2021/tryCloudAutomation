@@ -1,7 +1,7 @@
 Feature: Login With Different Scenarios
 
 
-  @PositiveLogin
+  @PositiveLogin @smoke
   Scenario Outline:Verify login with valid credentials
     Given  user on the login page
     When user enter username "<username>"
@@ -20,7 +20,7 @@ Feature: Login With Different Scenarios
 
 
 
-  @NegativeLogin
+  @NegativeLogin @smoke
   Scenario Outline:Verify login with valid credentials
     Given  user on the login page
     When user enter  invalid username "<username>"
