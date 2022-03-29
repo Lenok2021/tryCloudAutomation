@@ -60,16 +60,10 @@ public class Login_Step_Defs {
         loginPage.userPasswordInput.sendKeys(invalidPassword);
     }
 
-    @Then("verify {string} message should be displayed")
-    public void verify_message_should_be_displayed(String expectedMessage) {
-
-        String actualMessage = loginPage.wrongPasswordMes.getText();
-        Assert.assertTrue(loginPage.wrongPasswordMes.isDisplayed());
-        Assert.assertEquals(actualMessage,expectedMessage);
 
 
     }
 
 
 
-}
+
