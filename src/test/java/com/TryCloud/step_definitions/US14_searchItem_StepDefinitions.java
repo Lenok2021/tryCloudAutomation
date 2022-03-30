@@ -32,7 +32,7 @@ public class US14_searchItem_StepDefinitions {
 
     @Then("verify the app displays the expected result option")
     public void verify_the_app_displays_the_expected_result_option() {
-        String expectedFile = "Java";
+
         WebElement actualResult = Driver.getDriver().findElement(By.xpath("//h3[@title='Java']"));
         Assert.assertTrue("Java is not displayed", actualResult.isDisplayed());
     }
