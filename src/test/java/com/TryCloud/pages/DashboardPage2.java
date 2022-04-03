@@ -10,9 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DashboardPage {
+public class DashboardPage2 {
 
-    public DashboardPage() {
+    public DashboardPage2() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
