@@ -11,11 +11,15 @@ public abstract class BasePage {
 
     }
 
-    public  void kkk(){
+  public void iiii(){
 
-    public void tttt(){
-
-        System.out.println("hello");
-    }
+  }
 
 }
+
+
+
+
+
+
+
