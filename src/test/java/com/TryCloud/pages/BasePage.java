@@ -10,5 +10,8 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.getDriver(), this);
 
     }
+    public  void kkk(){
+        System.out.println("hello");
+    }
 
 }
